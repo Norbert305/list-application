@@ -5,10 +5,10 @@ export function MyList() {
 	const [task, setTask] = React.useState("");
 
 	return (
-		<div>
+		<div className="text-center">
 			<input
 				placeholder="Please Type...."
-				className="shadow"
+				className="text-center"
 				type="text"
 				value={task}
 				onChange={event => setTask(event.target.value)}

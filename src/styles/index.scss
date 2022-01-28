@@ -15,7 +15,12 @@
     color: red;
     display: none;
 }
-.title:hover .delete {
+
+// .title:hover .delete {
+//    display:block  
+// }
+
+.delete {
    display:block  
 }
 
@@ -42,4 +47,8 @@ body {
 
 h5 {
     color: magenta;
+}
+
+center {
+    margin: 40px auto;
 }

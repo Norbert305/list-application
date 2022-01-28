@@ -8,7 +8,10 @@ import rigoImage from "../../img/rigo-baby.jpg";
 const Home = () => {
 	return (
 		<div className="text-center mt-5 box">
-			<h5>MyList</h5> <MyList />
+			<h5 className="text-center ">MyList</h5>
+			<div className="text-center ">
+				<MyList />
+			</div>
 		</div>
 	);
 };
